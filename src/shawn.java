@@ -6,9 +6,9 @@ public class shawn {
         Scanner user_input = new Scanner(System.in);
         int user_in = user_input.nextInt();
 
-        if (user_in >0 & user_in <5) {
+        if (user_in >0 & user_in <=5) {
             System.out.println("Enjoy good luck a freind brings you");
-        } else if (user_in >5 & user_in <10) {
+        } else if (user_in >5 & user_in <=10) {
             System.out.println("Your Shoes will make you happy today");
         }
         else {
